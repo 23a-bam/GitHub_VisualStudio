@@ -22,6 +22,7 @@ namespace Task_1
             this.Text = tb_Input.Text;
             tb_Input.Text = "";
             tb_Input.Focus();
+            pb_Smile.Image = Image.FromFile("../../image/smiley.png");
         }
     }
 }
